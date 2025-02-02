@@ -39,16 +39,11 @@ function App() {
         </Route>
         <Route path="/dashboard" element={<UserRoute />}>
           <Route path="user" element={<UserDashBoard />} />
-          {/* <Route path="admin/admin-menu" element={<AdminMenu />} /> */}
         </Route>
-
-
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/*" element={<PageNotFound />} />
         <Route path="/policy" element={<Policy />} />
-
-
       </Routes>
 
     </>
